@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script defer src="../JS/app.js"></script>
+    <link rel="stylesheet" href="../CSS/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Money Exchange</title>
+  </head>
+  <body>
+    <img class="logo" src="/ASSETS/logo.gif" alt="logo-Image" />
+<h1>Exchange Machine</h1>
+    <main>
+        <div class="part01">
+            <label for="">
+                <b>From</b>
+                <select>
+                  <option>$R Real Br</option>
+                </select>
+              </label>
+    
+          <label for="">
+            <b>To</b>
+            <select class="currencySelect" id="">
+                <option value="dolar">$US American Dolar </option>
+                <option value="euro">€ Euro</option>
+                <option value="pound">£ Pound</option>
+              </select>
+          </label>
+    
+          <label class="moneyValue">
+            Value
+            <input class = "inputMoney"type="text" placeholder="0.000" />
+          </label>
+    
+          <button class="ExchangeButton">Exchange</button>
+        </div>
+        
+        <div class="part02">
+            <section class="currencyEx">
+                <div>
+                  <img class="imgs1" src="/ASSETS/brasil.png" alt="" />
+                  <p class="initialValue">$R 0.00</p>
+                </div>
+        
+                <img src="/ASSETS/vector.png" alt="" />
+        
+                <div>
+                  <img class="currencyImg" id="ExFlag" src="/ASSETS/usa.png" alt="" />
+                  <p class="finalValue">$US 0.00</p>
+                </div>
+              </section>
+        </div>
+      
+    </main>
+  </body>
+</html>
